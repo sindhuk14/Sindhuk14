@@ -1,0 +1,174 @@
+.start{
+    display:flex;
+}
+.symbol{
+    display:grid;
+    grid-template-columns:30% 70%;
+    margin-right:500px;
+    
+    
+}
+ul li {
+    list-style-type:none;
+    display:inline;
+    margin-left:100px;
+    font-size:20px;    
+}
+li a{
+    text-decoration:none;
+    color:blue;
+}
+li{
+    text-align:right;
+    
+    margin-left:100px;
+    display:inline;
+    line-height:50px;
+    font-size:15px;
+    font-color:red;
+}
+li:hover{
+    color:red;
+    background-color:blueviolet;
+}
+.above{
+    margin-top: 30px;
+}
+.back{
+    background-image: url('slide.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+
+    
+}
+.dogin{
+    display:grid;
+    grid-template-columns:40% 60%;
+}
+ div back{
+    background-image:url('slide.png');
+    background-repeat:no-repeat;
+    background-size:50% 50%;
+    background-position:top;
+    
+
+}
+img{
+    position: relative;
+}
+pre{
+    color:blue;
+}
+img{
+    position:relative;
+    
+}
+h1{
+    color:green;
+}
+.our{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+   
+}
+ 
+.feature{
+    display: flex;
+    margin-left: 400px;
+   
+   
+}
+.friend{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    background-color:whitesmoke;
+    font-size: 25px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+}
+.pics{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+}
+    div img:hover{
+        filter:grayscale(1);
+        transform: scale(1.03);
+
+    }
+.cat{
+     display: grid;
+     grid-template-columns: 20% 20% 20% 20% 20%;
+     
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px;
+    color:white;
+   
+    line-height: 20px;
+    padding-top: 50px;
+    text-align: left;
+    
+   
+}
+.back{
+    padding-bottom: 400px;
+}
+.client{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:whitesmoke;
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 20pxpx;
+    font-size: 20px;
+    text-align: center;
+}
+.end{
+    display: grid;
+    grid-template-columns: auto auto;
+    color:blue;
+}
+form{
+    text-align:center;
+    font-size:20px;
+    color:blue;
+     
+     line-height:60px;
+    
+      }
+      label{
+        font-size:15px;
+    
+  }
+  .addr{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: yellow;
+    background-color:rgb(55, 55, 62);
+    
+    
+  }
+  a{
+    color:yellow;
+    text-decoration: none;
+  }
+  body{
+    background-color:whitesmoke;
+  }
+  p{
+    color: maroon;
+  }
+ 
+  @media (max-width:720px){
+   .pet h1{
+        color:white !important;
+
+    }
+}
+
